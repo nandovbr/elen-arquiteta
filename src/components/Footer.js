@@ -13,7 +13,7 @@ const Footer = () => {
             <GotoTop />
             <footer className="footer">
                 <div className="container">
-                    <p>Copyright {getYear} - Portifólio Pessoal de Elen Rodrigues. Todos os Direitos Reservados.</p>
+                    <p>Copyright {getYear} - Portifólio Profissional de Elen Rodrigues. Todos os Direitos Reservados.</p>
                 </div>
             </footer>
         </>

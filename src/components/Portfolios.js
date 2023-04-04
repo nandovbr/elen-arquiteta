@@ -14,41 +14,53 @@ const Portfolios = () => {
 
     const projectiList = [
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Pet Animacão',
+            content: 'Design de interior para Pet Shop',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio1.jpg'
         },
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Pet Animacão',
+            content: 'Design de interior para Pet Shop',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio2.jpg'
         },
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Casa FK',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio3.jpg'
         },
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Casa FK',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio4.jpg'
         },
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Casa AL',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio5.jpg'
         },
         {
-            title: 'Título do projeto',
-            content: 'Descrição curta do projeto',
-            projectType: 'tipo do projeto (design ou arquitetura)',
+            title: 'Casa AL',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
             image: process.env.PUBLIC_URL + '/assets/images/portfolio6.jpg'
-        }
+        },
+        {
+            title: 'Casa MR',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
+            image: process.env.PUBLIC_URL + '/assets/images/portfolio7.jpg'
+        },
+        {
+            title: 'Casa MR',
+            content: 'Design de interior para residência',
+            projectType: 'Design',
+            image: process.env.PUBLIC_URL + '/assets/images/portfolio8.jpg'
+        },
     ]
 
     return (
@@ -71,7 +83,9 @@ const Portfolios = () => {
                                             <span>{item.projectType}</span>
                                             <h4>{item.title}</h4>
                                             <p>{item.content}</p>
-                                            <Link to="/portfolios">Link para o instagram/imagens dos projetos</Link>
+                                            <a href="https://www.instagram.com/rodrigues.arquitetura/">
+                                                <h5>IR PARA O INSTAGRAM</h5>
+                                            </a>
                                         </div>
                                     </div>
                                 )
