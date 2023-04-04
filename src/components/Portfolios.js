@@ -80,10 +80,10 @@ const Portfolios = () => {
                                             <img src={item.image} alt={item.title} loading="lazy" />
                                         </div>
                                         <div className="portfolios_description">
-                                            <span>{item.projectType}</span>
-                                            <h4>{item.title}</h4>
-                                            <p>{item.content}</p>
                                             <a href="https://www.instagram.com/rodrigues.arquitetura/">
+                                                <span>{item.projectType}</span>
+                                                <h4>{item.title}</h4>
+                                                <p>{item.content}</p>
                                                 <h5>IR PARA O INSTAGRAM</h5>
                                             </a>
                                         </div>
