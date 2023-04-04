@@ -1,3 +1,3 @@
 # Site da arquiteta Elen Rodrigues
 
-# Finalizado. Alteraçõeese e ajustes mensais conforme a necessidade da cliente.
+# Finalizado. Alterações e ajustes mensais conforme a necessidade da cliente.
