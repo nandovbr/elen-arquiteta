@@ -1,3 +1,3 @@
 # Site da arquiteta Elen Rodrigues
 
-# Em desenvolvimento....
+# Finalizado. Alteraçõeese e ajustes mensais conforme a necessidade da cliente.
