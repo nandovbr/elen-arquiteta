@@ -19,8 +19,10 @@ const Banner = () => {
                                     <span className="color-red">Elen Rodrigues</span>
                                 </h2>
                                 <p>Sou Arquiteta e Designer de Interiores criativa e extremamente focada no meu trabalho.</p>
-                                <Link to='/book-appointment' className="banner__content-link">Entrar em contato</Link>
                             </div>
+                                <a href="https://www.instagram.com/rodrigues.arquitetura/">
+                                    <button className="button-contato">Entrar em contato</button>
+                                </a>
                         </div>
                     </div>
                     <div className="col-sm-6">

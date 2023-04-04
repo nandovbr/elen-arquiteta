@@ -116,7 +116,7 @@ p {
 
 /* ==================== Title Sections ==================== */
 .section__heading h4 {
-    color: #fb7878;
+    color: #ec722b;
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
@@ -135,7 +135,7 @@ p {
 }
 
 .section__heading h2 .color-red {
-    color: #f15151
+    color: #ec722b;
 }
 
 .section__heading p {
@@ -155,9 +155,8 @@ p {
     font-weight: 500;
     text-decoration: none;
     background: linear-gradient(90deg,
-            rgba(194, 120, 251, 1) 0%,
+            rgb(129, 120, 251) 0%,
             rgba(249, 115, 255, 1) 100%);
-    color: #fff;
     text-transform: uppercase;
     z-index: 1;
     overflow: hidden;
@@ -182,6 +181,47 @@ p {
 }
 
 .section__heading a:hover::before {
+    left: 0;
+    width: 100%;
+}
+
+/* ========== Title Sections: button ========== */
+.button-contato {
+    position: relative;
+    display: inline-block;
+    padding: 13px 30px 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(90deg,
+            rgb(226, 129, 3) 0%,
+            rgb(226, 129, 3) 100%);
+    text-transform: uppercase;
+    z-index: 1;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    color: #ffffff;
+}
+
+.button-contato:hover {
+    box-shadow: 0 5px 15px -10px #000;
+    transform: translateY(-5px);
+}
+
+.button-contato::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: #6E89A4;
+    z-index: -1;
+    transition: all linear 0.3s;
+}
+
+.button-contato:hover::before {
     left: 0;
     width: 100%;
 }
@@ -507,6 +547,11 @@ p {
     font-weight: 500;
 }
 
+.portfolios_description h5 {
+    color: #f1aeaa;
+    font-size: 20px;
+}
+
 .portfolios_description p {
     color: #fff;
     font-size: 14px;
@@ -744,12 +789,12 @@ textarea.contact-form-control {
 
 /* ==================== Footer Sections ==================== */
 .footer {
-    padding: 30px 0 15px;
-    background: #5414ac;
+    padding: 50px 0 15px;
+    background: #fbe9e9;
 }
 
 .footer p {
-    color: #fff;
+    color: #000000;
     font-size: 14px;
     text-align: center;
 }
